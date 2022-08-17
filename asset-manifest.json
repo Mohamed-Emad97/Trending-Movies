@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Trending-Movies/static/css/main.e2c10e75.css",
+    "main.js": "/Trending-Movies/static/js/main.194041b4.js",
+    "static/media/31vliI2mopLlh5kUoWpJZ19cF8y.jpg": "/Trending-Movies/static/media/31vliI2mopLlh5kUoWpJZ19cF8y.fe00510f723fcf9d80c8.jpg",
+    "static/media/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg": "/Trending-Movies/static/media/rjkmN1dniUHVYAtwuV3Tji7FsDO.43c3b8c156fb3869d644.jpg",
+    "static/media/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg": "/Trending-Movies/static/media/pIkRyD18kl4FhoCNQuWxWu5cBLM.d468620abb1767ab0633.jpg",
+    "static/media/fBIzAD9ZDdNVNdsNPdsMUfrM3fI.jpg": "/Trending-Movies/static/media/fBIzAD9ZDdNVNdsNPdsMUfrM3fI.9a68d8de83f69cc52f3f.jpg",
+    "static/media/NotFound.png": "/Trending-Movies/static/media/NotFound.d11b58e211f952cc3e88.png",
+    "index.html": "/Trending-Movies/index.html",
+    "main.e2c10e75.css.map": "/Trending-Movies/static/css/main.e2c10e75.css.map",
+    "main.194041b4.js.map": "/Trending-Movies/static/js/main.194041b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2c10e75.css",
+    "static/js/main.194041b4.js"
+  ]
+}
