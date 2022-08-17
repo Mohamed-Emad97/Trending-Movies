@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+:root{
+    --font-Family:'Montserrat Alternates'; 
+    --bg-Color:#131722;
+    --lightBg-Color:#24baef;
+    --bg-Transparent:rgba(36,186,239,.6) ;
+    --font-Color:#fff;
+    --border-Color:#a8a8a83d;
+    --border-Height:1px;
+    --second-FontColor:#949cb0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-Family);
+    background-color: var(--bg-Color);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pointer{
+    cursor: pointer;
+}
+/*Start Header Section*/
+.search input{
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.search input:focus{
+    border: 1px solid var(--lightBg-Color);
+}
+.txt{
+    font-size: 15px;
+}
+nav .link{
+    color: var(--font-Color) !important;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+nav .link:hover{
+    color: var(--second-FontColor) !important;
+}
+nav .social span{
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+nav .social .facebook:hover{
+    color: #1877f2 !important;
+}
+nav .social .spotfiy:hover{
+    color: #1db954 !important;
+}
+nav .social .instagram:hover{
+   color: #e1306c !important; 
+}
+nav .social .youtube:hover{
+    color: #ff0000 !important;
+}
+/*End Header Section*/   
+/*Start Register Section*/
+#login .form,
+#register .form{
+    gap: 10px;
+}
+#login .btn-main,
+#register .btn-main{
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid var(--border-Color);
+    background-color: var(--bg-Color);
+    color: var(--second-FontColor);
+    border-radius: 15px;
+    transition: all 1s;
+}
+#login .btn-main:hover,
+#register .btn-main:hover{
+    background-color: var(--lightBg-Color);
+    color: var(--font-Color);
+}
+#login input,
+#register input{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+#login input:focus,
+#register input:focus{
+    border: 1px solid var(--lightBg-Color);
+}
+#register .error-msg {
+    font-size: 20px;
+    color: #ff0000 !important;
+}
+/*End Register Section*/
+/*Start Login Section*/
+#login p .link{
+    color: var(--font-Color) !important;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 1s;
+}
+#login p .link:hover{
+    color: var(--second-FontColor) !important;
+}
+/*End Login Section*/
+/*Start Home Section*/
+#movies .main-title,
+#shows .main-title,
+#people .main-title,
+#home .main-title{
+    position: relative;
+    color: var(--font-Color);
+}
+#movies .main-title::after,
+#shows .main-title::after,
+#people .main-title::after,
+#home .main-title::after{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 25%;
+    height: 2px;
+    background-color: var(--border-Color);
+}
+#movies .main-title::before,
+#shows .main-title::before,
+#people .main-title::before,
+#home .main-title::before{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--border-Color);
+}
+#movies .main-title p,
+#shows .main-title p,
+#people .main-title p,
+#home .main-title p{
+    color: var(--second-FontColor);
+}
+#movies .movie,
+#shows .movie,
+#people .movie,
+#home .movie{
+    position: relative;
+    cursor: pointer;
+}
+.movie .rate{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    color: var(--font-Color);
+    background-color: var(--lightBg-Color);
+}
+.movie img {
+    border-radius: 10px;
+}
+/*End Home Section*/
+/*Start Single-Movie Section*/
+#single-movie .movie-info{
+    color: var(--font-Color);
+}
+#single-movie .movie-info .btn-main{
+    display: inline-block;
+    border: 1px solid var(--border-Color);
+    background-color: var(--bg-Color);
+    color: var(--second-FontColor);
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 1s;
+}
+#single-movie .movie-info .btn-main:hover{
+    background-color: var(--lightBg-Color);
+    color: var(--font-Color);
+}
+#single-movie .movie-info p{
+    font-size: 20px;
+}
+#single-movie .movie-info .description{
+    color: var(--second-FontColor);
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+/*End Single-Movie Section*/
+/*Start About Section*/
+#about .images img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#about .images .pic-1{
+    transform: rotate(0);
+}
+#about .images .pic-2{
+    transform: rotate(25deg);
+}
+#about .images .pic-1{
+    transform: rotate(30deg);
+}
+#about .images .pic-1{
+    transform: rotate(35deg);
+}
+#about .about-info ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#about .about-info ul li .icon{
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+}
+#about .social .socialIcons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+#about .social .socialIcons span {
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+#about .social .socialIcons .facebook:hover {
+    color: #1877f2 !important;
+}
+#about .social .socialIcons .twitter:hover {
+    color: #1da1f2 !important;
+}
+#about .social .socialIcons .instagram:hover {
+    color: #e1306c !important; 
+}
+#about .social .socialIcons .youtube:hover {
+    color: #ff0000 !important;
+}
+/*End About Section*/
